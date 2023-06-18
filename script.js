@@ -104,7 +104,7 @@ function showForm(pa) {
 						const lab = document.createElement('label');
 						const inp = document.createElement('input');
 						const bre = document.createElement('br');
-						inp.setAttribute('type', 'text');
+						inp.setAttribute('type', 'number');
 						inp.setAttribute('id', subjects[selected - 1][j]);
 						inp.setAttribute('class', 'marksInput');
 						inp.setAttribute('required', 'required');
@@ -147,7 +147,7 @@ function showForm(pa) {
 							const lab = document.createElement('label');
 							const inp = document.createElement('input');
 							const bre = document.createElement('br');
-							inp.setAttribute('type', 'text');
+							inp.setAttribute('type', 'number');
 							inp.setAttribute('id', subjectsr[j][k]);
 							inp.setAttribute('class', 'semester' + (j + 1));
 							lab.setAttribute('for', subjectsr[j][k]);
