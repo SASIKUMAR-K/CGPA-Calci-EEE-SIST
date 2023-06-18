@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sasi GPA Calculator</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<div class="header">
+			<p>Sasi CGPA and GPA Calculator</p>
+			<a href="#formContainer" class="navlinks calculatorlink">Calculator</a>
+			<a href="#aboutMe" class="navlinks aboutlink">About Me</a>
+			<a href="#contact" class="navlinks contactlink">Contact</a>
+		</div>
+		<div class="subheader">
+			<p>
+				Sathyabama Univarsity, Department of Electrical and Electronics
+				Engineering
+			</p>
+		</div>
+		<div class="formContainer" id="formContainer">
+			<div class="formHeader">Select the Semester</div>
+			<p class="formDiscription">
+				Please select the semester for which you would like to calculate the
+				CGPA or Gpa.
+			</p>
+			<div class="formDiv">
+				<input type="radio" name="semester" id="0" value="0" checked />
+				<label for="0">Select</label><br />
+				<input type="radio" name="semester" id="1" value="1" />
+				<label for="1">1st Semester</label><br />
+				<input type="radio" name="semester" id="2" value="2" />
+				<label for="2">2nd Semester</label><br />
+				<input type="radio" name="semester" id="3" value="3" />
+				<label for="3">3rd Semester</label><br />
+				<input type="radio" name="semester" id="4" value="4" />
+				<label for="4">4th Semester</label><br />
+				<input type="radio" name="semester" id="5" value="5" />
+				<label for="5">5th Semester</label><br />
+				<input type="radio" name="semester" id="6" value="6" />
+				<label for="6">6th Semester</label><br />
+				<input type="radio" name="semester" id="7" value="7" />
+				<label for="7">7th Semester</label><br />
+				<input type="radio" name="semester" id="8" value="8" />
+				<label for="8">8th Semester</label><br />
+				<button class="btn" onclick="cgpa()">CGPA</button>
+				<button class="btn" onclick="gpa()">GPA</button>
+			</div>
+		</div>
+		<div class="resultForm"></div>
+		<div class="resultAns"></div>
+		<div id="aboutMe">
+			<div class="profile">
+				<img src="PROFILE.jpg" alt="My Profile" width="200px" height="200px" />
+				<p>Mr Sasikumar. K</p>
+			</div>
+			<div class="aboutMeDiscription">
+				I am Sasikumar, currently pursuing a B.E. in EEE at Sathyabama Institute
+				of Science and Technology. I have a keen interest in the field of IT. I
+				have acquired knowledge in various areas of Python programming,
+				including object-oriented programming, data structures, algorithms, and
+				various modules such as Tkinter for application development, Flask for
+				web development, and modules for connecting to databases like MySQL and
+				MongoDB. Additionally, I have experience in C and C++ programming
+				languages. In terms of web development, I am familiar with HTML, CSS,
+				and JavaScript basics. I possess strong technical skills and exhibit
+				perseverance when faced with system issues or code errors, as I am
+				dedicated to resolving them. Currently, I am focusing on learning more
+				about MongoDB as part of my studies in the IT sector. This webpage is
+				made by Me.
+			</div>
+		</div>
+		<div id="contact">
+			<p>Contact</p>
+			<a href="mailto:sasikumar05112004@gmail.com" target="_blank"
+				><i class="fa-solid fa-envelope" style="color: #fff"></i
+			></a>
+			<a href="tel:+918122104263" target="_blank"
+				><i class="fa-solid fa-phone" style="color: #fff"></i
+			></a>
+			<a href="https://www.linkedin.com/in/mr-sasikumar-k/" target="_blank"
+				><i class="fa-brands fa-linkedin-in" style="color: #fff"></i
+			></a>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>

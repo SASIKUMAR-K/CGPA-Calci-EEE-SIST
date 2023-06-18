@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+  
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 40px;
+    margin: 10px 40px;
+    border: 1px solid #333;
+}
+.navlinks{
+    padding: 5px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: white;
+}
+.calculatorlink:active,.aboutlink:active,.contactlink:active{
+    background-color: white;
+    color: #333;
+}
+  
+.subheader {
+    background-color: #eee;
+    padding: 2px 12px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 50px;
+    margin: 10px 40px;
+    border: 1px solid #333;
+}
+  
+.showForm,.formContainer,.result{
+    margin: 20px 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.wholeContainer{
+    display: flex;
+}
+
+
+
+.result{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.formHeader{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+} 
+.formDescription{
+    margin-bottom: 10px;
+}
+.semesterHeader{
+    text-align: center;
+    margin: 25px 0px 15px 0px;
+}
+
+input[type="radio"]{
+    margin-right: 30px;
+}
+  
+
+
+label,input[type="radio"]{
+    margin-bottom: 20px;
+}
+  
+
+label{
+    margin-bottom: 20px;
+}
+
+  
+input[type="text"]{
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px 0px 25px 0px;
+}
+  
+.btn{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width:100%;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 21px;
+    font-weight: 30%;
+}
+.btn:active{
+    color: #333;
+    background-color:#fff ;
+    border: 1px solid #333;
+}
+.cgpaDiscription{
+    text-align: center;
+    font-size: 21px;
+    font-weight: normal;
+}
+#aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 40px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.profile img{
+    border-radius: 20px;
+}
+.profile p{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.aboutMeDiscription{
+    text-align: justify;
+}
+#contact{
+    text-align: center;
+    margin: 20px 40px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    padding: 1px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#contact p{
+    font-size: 28px;
+    background-color: #333;
+}
+#contact i{
+    font-size: 28px;
+    margin: 0px 10px 35px 10px;
+}
+.enterYourMarks{
+    margin-bottom: 13px;
+}
