@@ -314,7 +314,7 @@ function calculate() {
 					});
 					let numerator = 0;
 					for (j = 0; j < marks.length; j++) {
-						numerator += parseInt(grade[j]) * newCredits[j];
+						numerator +=( grade[j] * newCredits[j]);
 					}
 					const gpa = numerator / creditSum;
 					result.classList.add('result');
