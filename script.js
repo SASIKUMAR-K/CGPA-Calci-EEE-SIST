@@ -41,16 +41,32 @@ subjects = [
 		'Power Electronics and Electrical Vehicle Lab',
 	],
 	[
-		//for 5th semester
+		// 'Analog Integrated Circuits',
+		// 'Electrical Machine Design',
+		// 'Microprocessor, Interfacing and Its Applications',
+		// 'Power System Analysis',
+		// 'Elective - II',
+		// 'Integrated Circuits Lab',
+		// 'Microprocessor Lab',
+		// 'Professional Training',
 	],
 	[
-		//for 6th semester
+		// 'Digital Signal Processing and its Applications',
+		// 'Advanced Control Systems',
+		// 'Electrical Drives and Control',
+		// '',
 	],
 	[
-		//for 7th semester
+		// 'Principles of Embedded System Design',
+		// 'Power System Protection and Switchgear',
+		// 'Elective - V',
+		// 'Elective - VI',
+		// 'Elective - VII',
 	],
 	[
-		//for 8th semester
+		// 'Principles of Management and Professional Ethics',
+		// 'Special Electrical Machines and Control',
+		// 'Project Phase - 2',
 	],
 ];
 
