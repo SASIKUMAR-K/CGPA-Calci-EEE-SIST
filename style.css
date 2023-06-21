@@ -144,6 +144,9 @@ input[type="number"]{
     margin-bottom: 20px
 }
 
+
+
+
 .aboutMeDiscription,.aboutWebPageDiscription,.aboutGpaDiscription{
     text-align: justify;
     line-height: 30px;
@@ -181,6 +184,7 @@ input[type="number"]{
 }
 
 .youtubeVideo iframe{
-    width: 55vw;
-    height: 31vw;
+    width: 77vw;
+    height: 43vw;
+    margin: 15px 0px;
 }
