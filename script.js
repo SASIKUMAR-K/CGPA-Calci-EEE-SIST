@@ -187,6 +187,9 @@ function showForm(pa) {
 			}
 		}
 	}
+	document
+		.getElementById('resultFormId')
+		.scrollIntoView({ behavior: 'smooth' });
 }
 
 function calculate() {
@@ -330,7 +333,7 @@ function calculate() {
 					});
 					let numerator = 0;
 					for (j = 0; j < marks.length; j++) {
-						numerator +=( grade[j] * newCredits[j]);
+						numerator += grade[j] * newCredits[j];
 					}
 					const gpa = numerator / creditSum;
 					result.classList.add('result');
@@ -340,4 +343,16 @@ function calculate() {
 			}
 		}
 	}
+	document.getElementById('resultAnsId').scrollIntoView({ behavior: 'smooth' });
+}
+function formContainer() {
+	document
+		.getElementById('formContainer')
+		.scrollIntoView({ behavior: 'smooth' });
+}
+function about() {
+	document.getElementById('aboutMe').scrollIntoView({ behavior: 'smooth' });
+}
+function contact() {
+	document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
 }

@@ -18,9 +18,11 @@
 	<body>
 		<div class="header">
 			<p>Sasi CGPA and GPA Calculator</p>
-			<a href="#formContainer" class="navlinks calculatorlink">Calculator</a>
-			<a href="#aboutMe" class="navlinks aboutlink">About</a>
-			<a href="#contact" class="navlinks contactlink">Contact</a>
+			<a onclick="formContainer()" class="navlinks calculatorlink"
+				>Calculator</a
+			>
+			<a onclick="about()" class="navlinks aboutlink">About</a>
+			<a onclick="contact()" class="navlinks contactlink">Contact</a>
 		</div>
 		<div class="subheader">
 			<p>
@@ -57,8 +59,8 @@
 				<button class="btn" onclick="gpa()">GPA</button>
 			</div>
 		</div>
-		<div class="resultForm"></div>
-		<div class="resultAns"></div>
+		<div class="resultForm" id="resultFormId"></div>
+		<div class="resultAns" id="resultAnsId"></div>
 		<div id="aboutMe">
 			<div class="profile">
 				<p>About Me</p>

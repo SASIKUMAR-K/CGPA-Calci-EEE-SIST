@@ -25,6 +25,7 @@ body {
     border-radius: 10px;
     border: 1px solid white;
     color: white;
+    cursor: pointer;
 }
 .calculatorlink:active,.aboutlink:active,.contactlink:active,.syllabusLink:active{
     background-color: white;
