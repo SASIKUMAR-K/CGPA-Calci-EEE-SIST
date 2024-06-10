@@ -1,3 +1,4 @@
+document.addEventListener('contextmenu', (event) => event.preventDefault());
 subjects = [
 	[
 		'Fundamentals of Python Programming',
@@ -41,14 +42,15 @@ subjects = [
 		'Power Electronics and Electrical Vehicle Lab',
 	],
 	[
-		// 'Analog Integrated Circuits',
-		// 'Electrical Machine Design',
-		// 'Microprocessor, Interfacing and Its Applications',
-		// 'Power System Analysis',
-		// 'Elective - II',
-		// 'Integrated Circuits Lab',
-		// 'Microprocessor Lab',
-		// 'Professional Training',
+		'Elective - II',
+		'Analog Integrated Circuits',
+		'Microprocessor, Interfacing and its Applications',
+		'Power System Analysis',
+		'Control Systems',
+		'Electrical Machine Design',
+		'Professional Training',
+		'Integrated Circuits Lab',
+		'Microprocessor Lab',
 	],
 	[
 		// 'Digital Signal Processing and its Applications',
@@ -75,9 +77,7 @@ credits = [
 	[3, 3, 3, 3, 3, 2, 1, 2],
 	[3, 3, 3, 3, 3, 3, 2, 2],
 	[2, 3, 3, 3, 3, 3, 3, 2, 2],
-	[
-		//for 5th semester
-	],
+	[3, 3, 3, 3, 3, 3, 2, 2, 2],
 	[
 		//for 6th semester
 	],
@@ -105,7 +105,7 @@ function showForm(pa) {
 		if (semester[i].checked) {
 			const selected = parseInt(semester[i].value);
 			resultForm.innerHTML = '';
-			if (pa == 2 && selected <= 4) {
+			if (pa == 2 && selected <= 5) {
 				if (selected == 0) {
 					alert('Please Select the Semester');
 					return;
@@ -140,7 +140,7 @@ function showForm(pa) {
 					resultForm.classList.add('showForm');
 					resultForm.prepend(showFormDiv);
 				}
-			} else if (pa == 1 && selected <= 4) {
+			} else if (pa == 1 && selected <= 5) {
 				if (selected == 0) {
 					alert('Please Select the Semester');
 					return;
@@ -182,7 +182,7 @@ function showForm(pa) {
 					resultForm.prepend(showFormHeader);
 				}
 			} else {
-				alert('please select 4th or below Semester');
+				alert('please select 5th or below Semester');
 				return;
 			}
 		}

@@ -27,6 +27,7 @@ body {
     border: 1px solid white;
     color: white;
     cursor: pointer;
+    user-select: none;
 }
 .calculatorlink:active,.aboutlink:active,.contactlink:active,.syllabusLink:active{
     background-color: white;
@@ -190,4 +191,29 @@ input[type="number"]{
     width: 68vw;
     height: 38.2vw;
     margin: 15px 0px;
+}
+
+.formDiscription{
+    color: #333;
+}
+
+.formHeader{
+    color: #333;
+}
+.formDiv label,input{
+    color: #333;
+}
+.copyRight{
+    background-color: #333;
+    width: 95%;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 15px 0px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+.copyRight a{
+    color: white;
 }
